@@ -1,7 +1,7 @@
 import socket 
 
-target_host = "ww.google.com"
-target_port = 80
+target_host = "127.0.0.1"
+target_port = 8000
 
 client= socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
